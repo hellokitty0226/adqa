@@ -1,0 +1,7 @@
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 25 Sep 2020 10:34:07 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNjAxMDMxODQ3ODE5LCJ1c2VySWQiOjE3OTIyLCJ1c2VyTmFtZSI6InlzeTI5NCJ9","userName":"ysy294"}}

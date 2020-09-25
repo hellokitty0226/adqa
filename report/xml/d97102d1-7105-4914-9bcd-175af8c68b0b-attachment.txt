@@ -1,0 +1,7 @@
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 25 Sep 2020 10:34:04 GMT
+
+{"code":2000,"message":"注册成功；用户ID:17921","data":{"userName":"ysy4915","accoutId":17921,"cstId":17931,"userId":17921}}

@@ -1,0 +1,17 @@
+----请求用时: 22.337 秒数
+-------------------request-------------
+http://qa.yansl.com:8084/product/getSkuByProdCode?prodCode=9avRE
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNjAxMDMxODQ3ODE5LCJ1c2VySWQiOjE3OTIyLCJ1c2VyTmFtZSI6InlzeTI5NCJ9
+
+None
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 25 Sep 2020 10:34:07 GMT
+
+{"code":2000,"message":"查询成功","data":[{"skuId":5504,"productCode":"9avRE","skuCode":"9avRE_red_13","skuName":"壹鲅粹医阼red13","skuPrice":10000,"color":"red","size":"13","status":0,"createTime":"2020-09-25T02:34:07.000+0000","updateTime":"2020-09-25T02:34:07.000+0000"}]}

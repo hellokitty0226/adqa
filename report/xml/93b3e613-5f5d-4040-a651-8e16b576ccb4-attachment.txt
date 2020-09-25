@@ -1,0 +1,7 @@
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 25 Sep 2020 10:34:04 GMT
+
+{"code":2000,"message":"创建产品成功,产品ID为:3190。共生成商品：1件。","data":[{"skuId":null,"productCode":"JQumt","skuCode":"JQumt_red_13","skuName":"吏峨赔虎滗red13","skuPrice":10000,"color":"red","size":"13","status":null,"createTime":null,"updateTime":null}]}

@@ -1,0 +1,19 @@
+----请求用时: 24.033 秒数
+-------------------request-------------
+http://qa.yansl.com:8084/product/addProd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNjAxMDMxODQ3ODE5LCJ1c2VySWQiOjE3OTIyLCJ1c2VyTmFtZSI6InlzeTI5NCJ9
+Content-Length: 186
+Content-Type: application/json
+
+b'{"brand": "\\u8723\\u7852\\u835f\\u9984\\u7ea0", "colors": ["red"], "price": 10000, "productCode": "9avRE", "productName": "\\u58f9\\u9c85\\u7cb9\\u533b\\u963c", "sizes": ["13"], "type": "\\u5305"}'
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 25 Sep 2020 10:34:07 GMT
+
+{"code":2000,"message":"创建产品成功,产品ID为:3191。共生成商品：1件。","data":[{"skuId":null,"productCode":"9avRE","skuCode":"9avRE_red_13","skuName":"壹鲅粹医阼red13","skuPrice":10000,"color":"red","size":"13","status":null,"createTime":null,"updateTime":null}]}

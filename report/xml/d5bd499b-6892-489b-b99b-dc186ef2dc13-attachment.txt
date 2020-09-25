@@ -1,0 +1,18 @@
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ----请求用时: 30.064 秒数
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://qa.yansl.com:8084/login
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 40
+                                              Content-Type: application/json
+                                              
+                                              b'{"pwd": "as66456", "userName": "ysy294"}'
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Fri, 25 Sep 2020 10:34:07 GMT
+                                              
+                                              {"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNjAxMDMxODQ3ODE5LCJ1c2VySWQiOjE3OTIyLCJ1c2VyTmFtZSI6InlzeTI5NCJ9","userName":"ysy294"}}

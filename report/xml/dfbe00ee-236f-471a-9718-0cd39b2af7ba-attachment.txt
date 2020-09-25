@@ -1,0 +1,19 @@
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ----请求用时: 27.188 秒数
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://qa.yansl.com:8084/product/addProd
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              token: eyJ0aW1lT3V0IjoxNjAxMDMxODQ0OTg5LCJ1c2VySWQiOjE3OTIxLCJ1c2VyTmFtZSI6InlzeTQ5MTUifQ==
+                                              Content-Length: 186
+                                              Content-Type: application/json
+                                              
+                                              b'{"brand": "\\u5e90\\u9009\\u64bc\\u574d\\u62f7", "colors": ["red"], "price": 10000, "productCode": "JQumt", "productName": "\\u540f\\u5ce8\\u8d54\\u864e\\u6ed7", "sizes": ["13"], "type": "\\u5305"}'
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Fri, 25 Sep 2020 10:34:04 GMT
+                                              
+                                              {"code":2000,"message":"创建产品成功,产品ID为:3190。共生成商品：1件。","data":[{"skuId":null,"productCode":"JQumt","skuCode":"JQumt_red_13","skuName":"吏峨赔虎滗red13","skuPrice":10000,"color":"red","size":"13","status":null,"createTime":null,"updateTime":null}]}

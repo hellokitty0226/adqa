@@ -1,0 +1,11 @@
+-------------------request-------------
+http://qa.yansl.com:8084/product/toPreSale
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNjAxMDMxODQ0OTg5LCJ1c2VySWQiOjE3OTIxLCJ1c2VyTmFtZSI6InlzeTQ5MTUifQ==
+Content-Length: 17
+Content-Type: application/x-www-form-urlencoded
+
+productCode=JQumt

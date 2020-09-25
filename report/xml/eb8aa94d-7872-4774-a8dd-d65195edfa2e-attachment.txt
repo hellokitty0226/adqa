@@ -1,0 +1,7 @@
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 25 Sep 2020 10:34:07 GMT
+
+{"code":2000,"message":"产品更新成功1条；商品更新1条。","data":""}

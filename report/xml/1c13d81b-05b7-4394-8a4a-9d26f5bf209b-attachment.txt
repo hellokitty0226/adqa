@@ -1,0 +1,19 @@
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ----请求用时: 30.765 秒数
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://qa.yansl.com:8084/product/soldOut
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              token: eyJ0aW1lT3V0IjoxNjAxMDMxODQ0OTg5LCJ1c2VySWQiOjE3OTIxLCJ1c2VyTmFtZSI6InlzeTQ5MTUifQ==
+                                              Content-Length: 17
+                                              Content-Type: application/x-www-form-urlencoded
+                                              
+                                              productCode=JQumt
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Fri, 25 Sep 2020 10:34:04 GMT
+                                              
+                                              {"code":2000,"message":"产品更新成功1条；商品更新1条。","data":""}

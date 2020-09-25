@@ -1,0 +1,17 @@
+----请求用时: 23.329 秒数
+-------------------request-------------
+http://qa.yansl.com:8084/product/getSkuByProdCode?prodCode=JQumt
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNjAxMDMxODQ0OTg5LCJ1c2VySWQiOjE3OTIxLCJ1c2VyTmFtZSI6InlzeTQ5MTUifQ==
+
+None
+---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 25 Sep 2020 10:34:04 GMT
+
+{"code":2000,"message":"查询成功","data":[{"skuId":5503,"productCode":"JQumt","skuCode":"JQumt_red_13","skuName":"吏峨赔虎滗red13","skuPrice":10000,"color":"red","size":"13","status":0,"createTime":"2020-09-25T02:34:05.000+0000","updateTime":"2020-09-25T02:34:05.000+0000"}]}

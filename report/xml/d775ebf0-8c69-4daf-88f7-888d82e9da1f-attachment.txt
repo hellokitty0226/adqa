@@ -1,0 +1,36 @@
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ----请求用时: 34.379 秒数
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://qa.yansl.com:8084/login
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 43
+                                              Content-Type: application/json
+                                              
+                                              b'{"pwd": "xiaom123", "userName": "lijc1010"}'
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Fri, 25 Sep 2020 10:34:07 GMT
+                                              
+                                              {"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNjAxMDMxODQ3NzI1LCJ1c2VySWQiOjIsInVzZXJOYW1lIjoibGlqYzEwMTAifQ==","userName":"lijc1010"}}
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ----请求用时: 31.394 秒数
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://qa.yansl.com:8084/signup
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 84
+                                              Content-Type: application/json
+                                              
+                                              b'{"phone": "15000370869", "pwd": "as66456", "rePwd": "as66456", "userName": "ysy294"}'
+[32mINFO    [0m tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Fri, 25 Sep 2020 10:34:07 GMT
+                                              
+                                              {"code":2000,"message":"注册成功；用户ID:17922","data":{"userName":"ysy294","accoutId":17922,"cstId":17932,"userId":17922}}

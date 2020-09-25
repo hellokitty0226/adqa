@@ -1,0 +1,9 @@
+-------------------request-------------
+http://qa.yansl.com:8084/product/getSkuByProdCode?prodCode=9avRE
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNjAxMDMxODQ3ODE5LCJ1c2VySWQiOjE3OTIyLCJ1c2VyTmFtZSI6InlzeTI5NCJ9
+
+None
